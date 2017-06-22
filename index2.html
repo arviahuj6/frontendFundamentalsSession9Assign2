@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Start of HTML -->
+<html>
+
+<!-- Start of Head -->
+<head>
+
+<!-- Start of Title -->
+<title>Popover in Bootstrap</title>
+
+<!-- Start of Meta-tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap Import -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<!-- Start of CSS Styling -->
+<style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+        
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+	  
+    }
+    
+  </style>
+<!-- End of CSS Styling -->
+
+</head>
+<!-- End Head -->
+
+<!-- Start Body -->
+<body>
+
+<!-- Start of Main wrapper -->
+<div class="wrapper">
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                    <a class="navbar-brand" href="#">LOGO</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+    			<ul class="nav navbar-nav">
+      				<li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+      				<li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+      				<li><a href="#">Gallery</a></li>
+      				<li><a href="#">Contact Us</a></li>
+    			</ul>
+                </div>
+  			</div>
+		</nav>                         
+        <!-- End Navbar -->
+
+		<!-- Start of Container1 -->
+        <div class="container">
+        <h1 style="text-align:center"><u>Bootstrap Responsive Tables</u></h1><br><br><br>
+        
+          <h3>First Responsive Table with (col-md-4)</h3>
+          
+        <div class="row"> 
+            <div class="col-md-4" style="background-color:lightcyan;">First Name</div>
+            <div class="col-md-4" style="background-color:lightgray;">Last Name</div>
+            <div class="col-md-4" style="background-color:lightgreen;">Email</div>
+      
+    	</div>
+    	<div class="row">
+            <div class="col-md-4" style="background-color:lightcyan;">Arvind</div>
+            <div class="col-md-4" style="background-color:lightgray;">Ahuja</div>
+            <div class="col-md-4" style="background-color:lightgreen;">arvind@gmail.com</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" style="background-color:lightcyan;">Vansh</div>
+            <div class="col-md-4" style="background-color:lightgray;">Ahuja</div>
+            <div class="col-md-4" style="background-color:lightgreen;">vansh@gmail.com</div>
+        </div>
+      	</div><br><br><br>
+        <!-- End of Container1 -->
+          
+          <!-- Start of Container2 -->
+          <div class="container">
+        
+          <h3>Second Responsive Table with (TD and TR)</h3>
+          <div class="table-responsive">          
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Biography</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Arvind</td>
+                    <td>Ahuja</td>
+                    <td>45</td>
+                    <td>arvind@gmail.com</td>
+                    <td>Some Text</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Arvind</td>
+                    <td>Ahuja</td>
+                    <td>45</td>
+                    <td>arvind@gmail.com</td>
+                    <td>Some Text</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Arvind</td>
+                    <td>Ahuja</td>
+                    <td>45</td>
+                    <td>arvind@gmail.com</td>
+                    <td>Some Text</td>
+                  </tr>
+                </tbody>
+              </table>
+  			</div>
+		</div>
+        <!-- End of Container2 -->
+</div>
+<!-- End Main Wrapper -->
+
+<!-- Start of Footer -->
+<footer class="container-fluid text-center">
+  <p style="text-align:center;">&copy; Copyright 2017. Developed by Arvind Ahuja: <a href="mailto:geetika.arvind@gmail.com">
+  Email Me</a>.</p> 
+</footer>
+<!-- End of Footer -->
+
+</body>
+<!-- End Body -->
+</html>
+<!-- End HTML -->
